@@ -9,4 +9,5 @@ plotweather <- function(date){
   require("camweather")
   wet <- weatherdata(date)
   plot(wet$Temp)
+  plot(wet$Rain)
 }
