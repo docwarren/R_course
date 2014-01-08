@@ -5,6 +5,7 @@ getweather = function(date){
 }
 
 plotweather <- function(date){
+  #plots a graph of the temperature
   require("camweather")
   wet <- weatherdata(date)
   plot(wet$Temp)
