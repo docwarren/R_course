@@ -1,5 +1,6 @@
 #Basic file to start
 # Eva adding a test comment
+# Eva's comment 2
 getweather = function(date){
   require("camweather")
   return weatherdata(date)
