@@ -1,5 +1,6 @@
 #Basic file to start
 # Eva adding a test comment
+# Andrew's comment priot to merge
 getweather = function(date){
   require("camweather")
   return weatherdata(date)
